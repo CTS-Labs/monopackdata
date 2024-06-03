@@ -42,7 +42,7 @@
               "description": "The background of the advancement"
             }
           },
-          "required": ["icon", "title", "description", "frame", "emmitToast", "emmitChatMessage", "hidden"]
+          "required": ["icon", "title", "description", "frame", "emmitToast", "emmitChatMessage", "hidden", "background"]
         }
       },
       "required": ["display"]
