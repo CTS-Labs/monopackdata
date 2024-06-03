@@ -18,6 +18,12 @@
             }
           },
           "required": ["name", "namespace"]
+        },
+        "registry": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": ["description"]
