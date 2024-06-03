@@ -36,6 +36,10 @@
             "hidden": {
               "type": "boolean",
               "description": "Whether the advancement is hidden"
+            },
+            "background": {
+              "type": "string",
+              "description": "The background of the advancement"
             }
           },
           "required": ["icon", "title", "description", "frame", "emmitToast", "emmitChatMessage", "hidden"]
